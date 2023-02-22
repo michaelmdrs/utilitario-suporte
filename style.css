@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    padding: 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+li a {
+    color: darkblue;
+    text-decoration: none;
+    line-height: 1.5em;
+}
+
+.lista {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    justify-content: start;
+
+    padding: 20px;
+}
